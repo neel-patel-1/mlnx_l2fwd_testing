@@ -1,0 +1,116 @@
+Module                  Size  Used by
+msr                    16384  0
+rpcsec_gss_krb5        32768  0
+auth_rpcgss           135168  1 rpcsec_gss_krb5
+nfsv4                 811008  2
+nfs                   380928  3 nfsv4
+lockd                 102400  1 nfs
+grace                  16384  1 lockd
+fscache               380928  1 nfs
+netfs                  45056  1 fscache
+socwatch2_15           94208  0
+vtsspp                507904  0
+sep5                 2756608  0
+socperf3              602112  1 sep5
+nf_conntrack_netlink    49152  0
+xfrm_user              36864  1
+xfrm_algo              16384  1 xfrm_user
+br_netfilter           28672  0
+ip6table_mangle        16384  1
+ip6table_nat           16384  1
+aufs                  258048  0
+nf_tables             212992  0
+nfnetlink              20480  3 nf_conntrack_netlink,nf_tables
+ip6table_filter        16384  1
+ip6_tables             32768  3 ip6table_filter,ip6table_nat,ip6table_mangle
+bridge                266240  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+xt_CHECKSUM            16384  2
+iptable_mangle         16384  1
+xt_MASQUERADE          20480  5
+xt_addrtype            16384  0
+iptable_nat            16384  1
+nf_nat                 49152  3 ip6table_nat,iptable_nat,xt_MASQUERADE
+ipt_REJECT             16384  2
+nf_reject_ipv4         16384  1 ipt_REJECT
+xt_conntrack           16384  2
+nf_conntrack          147456  4 xt_conntrack,nf_nat,nf_conntrack_netlink,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         16384  1 nf_conntrack
+xt_tcpudp              20480  11
+iptable_filter         16384  1
+bpfilter               16384  0
+cuse                   16384  4
+overlay               126976  0
+pax                    16384  0
+usdm_drv              102400  0
+rdma_ucm               28672  0
+rdma_cm               114688  1 rdma_ucm
+iw_cm                  53248  1 rdma_cm
+ib_ipoib              131072  0
+ib_cm                  61440  2 rdma_cm,ib_ipoib
+ib_umad                24576  0
+binfmt_misc            24576  1
+kvm_intel             303104  0
+input_leds             16384  0
+qat_c62x               20480  0
+joydev                 28672  0
+intel_qat             262144  2 qat_c62x,usdm_drv
+kvm                   864256  1 kvm_intel
+uio                    20480  1 intel_qat
+mlx5_ib               380928  0
+ib_uverbs             135168  2 rdma_ucm,mlx5_ib
+ib_core               356352  8 rdma_cm,ib_ipoib,iw_cm,ib_umad,rdma_ucm,ib_uverbs,mlx5_ib,ib_cm
+sch_fq_codel           20480  88
+knem                   49152  0
+parport_pc             45056  0
+ppdev                  24576  0
+lp                     20480  0
+drm                   557056  0
+parport                65536  3 parport_pc,lp,ppdev
+sunrpc                557056  10 nfsv4,auth_rpcgss,lockd,rpcsec_gss_krb5,nfs
+efi_pstore             16384  0
+ip_tables              32768  3 iptable_filter,iptable_nat,iptable_mangle
+x_tables               49152  14 ip6table_filter,xt_conntrack,iptable_filter,ip6table_nat,xt_tcpudp,xt_addrtype,xt_CHECKSUM,ip6_tables,ipt_REJECT,ip_tables,iptable_nat,ip6table_mangle,xt_MASQUERADE,iptable_mangle
+autofs4                45056  4
+raid10                 65536  0
+raid456               159744  0
+async_raid6_recov      24576  1 raid456
+async_memcpy           20480  2 raid456,async_raid6_recov
+async_pq               24576  2 raid456,async_raid6_recov
+async_xor              20480  3 async_pq,raid456,async_raid6_recov
+async_tx               20480  5 async_pq,async_memcpy,async_xor,raid456,async_raid6_recov
+xor                    24576  1 async_xor
+raid6_pq              114688  3 async_pq,raid456,async_raid6_recov
+libcrc32c              16384  4 nf_conntrack,nf_nat,nf_tables,raid456
+raid1                  49152  0
+raid0                  24576  0
+multipath              20480  0
+linear                 20480  0
+hid_generic            16384  0
+usbhid                 57344  0
+hid                   139264  2 usbhid,hid_generic
+uas                    28672  0
+usb_storage            77824  1 uas
+crct10dif_pclmul       16384  1
+crc32_pclmul           16384  0
+ghash_clmulni_intel    16384  0
+mlx5_core            1519616  1 mlx5_ib
+igb                   229376  0
+pci_hyperv_intf        16384  1 mlx5_core
+aesni_intel           376832  0
+xhci_pci               24576  0
+mlxdevm               172032  1 mlx5_core
+mlx_compat             69632  11 rdma_cm,ib_ipoib,mlxdevm,iw_cm,ib_umad,ib_core,rdma_ucm,ib_uverbs,mlx5_ib,ib_cm,mlx5_core
+ahci                   40960  4
+tls                   102400  1 mlx5_core
+dca                    16384  1 igb
+crypto_simd            16384  1 aesni_intel
+cryptd                 24576  2 crypto_simd,ghash_clmulni_intel
+e1000e                266240  0
+psample                20480  1 mlx5_core
+i2c_algo_bit           16384  1 igb
+libahci                36864  1 ahci
+mlxfw                  32768  1 mlx5_core
+xhci_pci_renesas       20480  1 xhci_pci
