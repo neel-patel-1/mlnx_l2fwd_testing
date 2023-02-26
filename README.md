@@ -6,10 +6,6 @@ Tested with:
 - Ubuntu 5.13.0-44.49~20.04.1-generic 5.13.19
 - Find entire system provenance in: `dpdk_l2fwd_testing_sys_provenance/`
 
-Documentation:
-- DPDK 21.11 Build Guide for Linux: https://doc.dpdk.org/guides-21.11/linux_gsg/index.html
-	- all version guides: https://core.dpdk.org/doc/archives/
-
 ## Build
 Run build script
 ```
@@ -21,6 +17,12 @@ sudo ./deps.sh
 setup hugepages
 ```
 sudo ./reserve_hugepages.sh
+```
+
+## Run Experiments (l2fwd example)
+```
+cd exp/l2fwd_cache_miss
+sudo ./run.sh
 ```
 
 ## Roadmap
