@@ -13,9 +13,9 @@ sudo ./deps.sh
 ```
 
 ## Configure System
-setup hugepages
+setup hugepages, enable userspace monitoring
 ```
-sudo ./reserve_hugepages.sh
+sudo ./setup_machine.sh
 ```
 
 ## Run Experiments (l2fwd example)
