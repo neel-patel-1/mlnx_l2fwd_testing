@@ -28,12 +28,15 @@ sudo ./run.sh
 Current Work:
 - [x] DPDK Build Script
 	- [x] Compiling Examples
+	- [ ] Linking Against Build Tree RTE Drivers (no system-wide install)
+- [ ] System Configurations
+	- [x] Enable System Monitoring 
+	- [x] 2M Hugepages
+	- [ ] 1GB Hugepages
+	- [ ] Optimizations for Intel Systems: https://doc.dpdk.org/guides-21.11/linux\_gsg/nic\_perf\_intel\_platform.html
 - [ ] Experiment Run Scripts
-	- [ ] l2fwd l2/l3 cache misses
-	- [ ] Linking Against Build Tree Drivers (no system-wide install)
-- [ ] Optimizations for Intel Systems: https://doc.dpdk.org/guides-21.11/linux_gsg/nic_perf_intel_platform.html
+	- [x] Example L2fwd run exp
+	- [ ] l2fwd l2/l3 cache misses exp
 
 Future Work:
-- [ ] Fetch Instructions
-- [ ] Build Instructions
-- [ ] System Configuration Validation Instructions
+- [ ] Remote Traffic Generator Control
