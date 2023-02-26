@@ -1,4 +1,4 @@
-### Mellanox DPDK Profiling
+# Mellanox DPDK Profiling
 
 Tested with:
 - Mellanox OFED Version: 5.4-3.6.8 (MLNX_OFED_LINUX-5.4-3.6.8.1)
