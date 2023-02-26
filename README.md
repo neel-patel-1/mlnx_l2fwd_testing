@@ -4,7 +4,6 @@ Tested with:
 - Mellanox OFED Version: 5.4-3.6.8 (MLNX_OFED_LINUX-5.4-3.6.8.1)
 - DPDK version 21.11 <45f04d88ae8fa6217812abdaa623d66b05fc7b6a>
 - Ubuntu 5.13.0-44.49~20.04.1-generic 5.13.19
-- Find entire system provenance in: `dpdk_l2fwd_testing_sys_provenance/`
 
 ## Build
 Run build script
