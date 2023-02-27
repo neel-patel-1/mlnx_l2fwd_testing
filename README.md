@@ -37,6 +37,4 @@ Current Work:
 - [ ] Experiment Run Scripts
 	- [x] Example L2fwd run exp
 	- [ ] l2fwd l2/l3 cache misses exp
-
-Future Work:
 - [ ] Remote Traffic Generator Control
