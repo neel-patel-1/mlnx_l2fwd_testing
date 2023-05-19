@@ -1,5 +1,6 @@
 ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 DPDK_BUILD=${ROOT}/dpdk/build
+PKTGEN=${ROOT}/Pktgen-DPDK
 IF_ID=0000:17:00.*
 
 gen_provenance(){
