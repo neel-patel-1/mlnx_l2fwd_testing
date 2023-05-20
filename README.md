@@ -38,3 +38,5 @@ Current Work:
 	- [x] Example L2fwd run exp
 	- [ ] l2fwd l2/l3 cache misses exp
 - [ ] Remote Traffic Generator Control
+
+I installed libdpdk-dev & libipsec-mb-dev to resolve dpdk- & pktgen-related errors
