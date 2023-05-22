@@ -9,7 +9,7 @@ git submodule init
 git submodule update --recursive
 
 cd dpdk
-git checkout v19.01
+git checkout v18.00
 meson -Dplatform=native -Denable_drivers=mlx5_core,qat -Dexamples=all build
 cd build
 ninja
