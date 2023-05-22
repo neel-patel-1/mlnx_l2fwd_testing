@@ -12,7 +12,7 @@ git submodule init
 git submodule update --recursive
 
 cd Pktgen-DPDK
-git checkout pktgen-21.11.0
+git checkout pktgen-23.03.0
 
 export RTE_SDK=../dpdk
 export RTE_TARGET=x86_64-native-linuxapp-gcc
