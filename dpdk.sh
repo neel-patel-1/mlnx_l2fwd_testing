@@ -1,16 +1,14 @@
 #!/bin/bash
 
-# remove old submodules
-rm -rf dpdk
-rm -rf Pktgen-DPDK
+VERSION=23.03
 
-# Initialize dpdk module
-git submodule init
-git submodule update --recursive
+rm -rf dpdk-$VERSION/
 
-cd dpdk
-git checkout v22.11.1
-meson -Dplatform=native -Denable_lua=true -Denable_drivers=mlx5_core,qat -Dexamples=all build
+wget http://fast.dpdk.org/rel/dpdk-$VERSION.tar.xz
+tar -xf dpdk-$VERSION.tar.xz
+rm -rf dpdk-$VERSION.tar.xz*
+
+cd ./dpdk-$VERSION
+meson -Dplatform=native -Denable_drivers=mlx5_core,qat -Dexamples=all build
 cd build
 ninja
-

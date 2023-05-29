@@ -2,14 +2,20 @@
 
 #need this for $ROOT
 source ./shared.sh
+VERSION=23.03.0
 
+rm -rf pktgen-dpdk-pktgen-$VERSION
 
-cd Pktgen-DPDK
-git checkout pktgen-22.07.0
+wget https://git.dpdk.org/apps/pktgen-dpdk/snapshot/pktgen-dpdk-pktgen-$VERSION.tar.gz
+tar -xf pktgen-dpdk-pktgen-$VERSION.tar.gz
 
-export RTE_SDK=../dpdk
-export RTE_TARGET=x86_64-native-linuxapp-gcc
-export PKTGEN_DIR=$(pwd)
+rm -rf pktgen-dpdk-pktgen-$VERSION.tar.gz
+
+cd pktgen-dpdk-pktgen-$VERSION
+
+export RTE_SDK=${ROOT}/dpdk
+export RTE_TARGET=arm64-armv8-linux-gcc
+export PKTGEN_DIR=${ROOT}/pktgen-dpdk-pktgen-$VERSION
 export PKG_CONFIG_PATH=/scratch/pding/opt/usr/local/lib64/pkgconfig:$PKG_CONFIG_PATH
 
-make clean buildlua -j
+make -j
