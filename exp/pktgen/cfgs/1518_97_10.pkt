@@ -1,0 +1,7 @@
+set 0 dst mac 0c:42:a1:e7:1f:6a
+set 0 size 1518
+set 0 rate 97gbps
+set 0 count 79874835.30961791831000000000
+start 0
+sleep 17.0
+quit

@@ -1,0 +1,391 @@
+[sudo] password for d552q900: mkdir: cannot create directory ‘cfgs’: File exists
+EAL: Detected CPU lcores: 160
+EAL: Detected NUMA nodes: 2
+EAL: Detected static linkage of DPDK
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'VA'
+EAL: No available 32768 kB hugepages reported
+EAL: No available 64 kB hugepages reported
+EAL: No available 1048576 kB hugepages reported
+EAL: Probe PCI driver: mlx5_pci (15b3:a2d2) device: 0006:01:00.0 (socket 1)
+EAL: Probe PCI driver: mlx5_pci (15b3:a2d2) device: 0006:01:00.1 (socket 1)
+MAC updating enabled
+Notice: odd number of ports in portmask.
+Lcore 81: RX port 0 TX port 0
+Initializing port 0... done: 
+Port 0, MAC address: 0C:42:A1:E7:1F:6A
+
+Skipping disabled port 1
+
+Checking link statusdone
+Port 0 Link up at 100 Gbps FDX Autoneg
+L2FWD: entering main loop on lcore 81
+L2FWD:  -- lcoreid=81 portid=0
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                        0
+Packets received:                    0
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:                  0
+Total packets received:              0
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                  2977396
+Packets received:              2977396
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:            2977396
+Total packets received:        2977396
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                  5956980
+Packets received:              5956980
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:            5956980
+Total packets received:        5956980
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                  8934768
+Packets received:              8934768
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:            8934768
+Total packets received:        8934768
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 11914420
+Packets received:             11914420
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           11914420
+Total packets received:       11914420
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 14893040
+Packets received:             14893040
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           14893040
+Total packets received:       14893040
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 17872624
+Packets received:             17872624
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           17872624
+Total packets received:       17872624
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 20851308
+Packets received:             20851308
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           20851308
+Total packets received:       20851308
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 23831020
+Packets received:             23831020
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           23831020
+Total packets received:       23831020
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 26810668
+Packets received:             26810668
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           26810668
+Total packets received:       26810668
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 29789224
+Packets received:             29789224
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           29789224
+Total packets received:       29789224
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 32768936
+Packets received:             32768936
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           32768936
+Total packets received:       32768936
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 35748584
+Packets received:             35748584
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           35748584
+Total packets received:       35748584
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 38728104
+Packets received:             38728104
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           38728104
+Total packets received:       38728104
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 41706852
+Packets received:             41706852
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           41706852
+Total packets received:       41706852
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 44686244
+Packets received:             44686244
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           44686244
+Total packets received:       44686244
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 47666144
+Packets received:             47666144
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           47666144
+Total packets received:       47666144
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 50645844
+Packets received:             50645844
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           50645844
+Total packets received:       50645844
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 53625380
+Packets received:             53625380
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           53625380
+Total packets received:       53625380
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 56603992
+Packets received:             56603992
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           56603992
+Total packets received:       56603992
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 59583576
+Packets received:             59583576
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           59583576
+Total packets received:       59583576
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 62563288
+Packets received:             62563288
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           62563288
+Total packets received:       62563288
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 65541744
+Packets received:             65541744
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           65541744
+Total packets received:       65541744
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 68521356
+Packets received:             68521356
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           68521356
+Total packets received:       68521356
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 71501072
+Packets received:             71501072
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           71501072
+Total packets received:       71501072
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 74479616
+Packets received:             74479616
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           74479616
+Total packets received:       74479616
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 75458132
+Packets received:             75458132
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           75458132
+Total packets received:       75458132
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 75458132
+Packets received:             75458132
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           75458132
+Total packets received:       75458132
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 75458132
+Packets received:             75458132
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           75458132
+Total packets received:       75458132
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 75458132
+Packets received:             75458132
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           75458132
+Total packets received:       75458132
+Total packets dropped:               0
+====================================================
+[2J[1;1H
+Port statistics ====================================
+Statistics for port 0 ------------------------------
+Packets sent:                 75458132
+Packets received:             75458132
+Packets dropped:                     0
+Aggregate statistics ===============================
+Total packets sent:           75458132
+Total packets received:       75458132
+Total packets dropped:               0
+====================================================
+
+
+Signal 15 received, preparing to exit...
+Closing port 0... Done
+Bye...
+
+ Performance counter stats for 'timeout --foreground 32.0 /home/d552q900/mlnx_l2fwd_testing/dpdk/build/examples/dpdk-l2fwd -l 81 -n 2 -- -p 0x0001 -T 1':
+
+       65218307024      l1i_cache                                                     (58.32%)
+           8214570      L1-icache-load-misses                                         (58.34%)
+       68147357694      l1d_cache_rd                                                  (58.34%)
+       26382789921      l1d_cache_wr                                                  (58.36%)
+         291262451      L1-dcache-load-misses                                         (58.33%)
+         377121877      l2d_cache_rd                                                  (50.02%)
+         462244029      l2d_cache_wr                                                  (49.97%)
+       94336370755      mem_access                                                    (50.08%)
+       68032864519      mem_access_rd                                                 (50.03%)
+       26343861888      mem_access_wr                                                 (50.01%)
+       91747128148      cpu_cycles                                                    (58.34%)
+      250178148309      instructions                                                  (58.34%)
+
+      33.623799954 seconds time elapsed
+
+      30.457715000 seconds user
+       0.315982000 seconds sys
+
+

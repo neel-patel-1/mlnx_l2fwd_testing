@@ -1,0 +1,4 @@
+[sudo] password for d552q900: Sorry, try again.
+[sudo] password for d552q900: 
+sudo: no password was provided
+sudo: 1 incorrect password attempt
