@@ -7,3 +7,9 @@
 [submodule "intel-cmt-cat"]
 	path = intel-cmt-cat
 	url = https://github.com/intel/intel-cmt-cat.git
+[submodule "memkind"]
+	path = memkind
+	url = git@github.com:memkind/memkind.git
+[submodule "Pktgen-DPDK"]
+	path = Pktgen-DPDK
+	url = git@github.com:pktgen/Pktgen-DPDK.git
