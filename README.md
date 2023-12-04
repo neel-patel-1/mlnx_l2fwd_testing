@@ -9,7 +9,14 @@ Tested with:
 Run build script
 ```
 sudo ./deps.sh
+
+cd memkind # for hbm allocations in dpdk-l2fwd-hbm
+./build.sh
+
+cd ..
+
 ./dpdk.sh
+./pktgen.sh
 ```
 
 ## Configure System
