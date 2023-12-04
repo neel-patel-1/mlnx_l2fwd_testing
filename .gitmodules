@@ -1,6 +1,6 @@
 [submodule "dpdk"]
 	path = dpdk
-	url = https://github.com/DPDK/dpdk.git
+	url = git@github.com:architecture-research-group/l2fwd-hbm.git
 [submodule "pmu-tools"]
 	path = pmu-tools
 	url = https://github.com/andikleen/pmu-tools.git
